@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafi Fadhila Putra - Digital Marketing Professional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">Portfolio Professional Digital Marketing</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#projects">Brands</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#order-details" class="order-nav-btn" id="navOrderLink">Order</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Professional Working Experience</h1>
+        <p>Let's work together, together we achieve more.</p>
+        <a href="#order-details" class="btn">Explore more</a>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="section-title">About me</h2>
+        <p class="section-subtitle">Use controls or swipe left/right to browse my profiles</p>
+        <div class="slider-nav">
+            <button class="slider-arrow" id="prevBtn" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="slider-dots">
+                <span class="dot active" onclick="setSlide(0)"></span>
+                <span class="dot" onclick="setSlide(1)"></span>
+            </div>
+            <button class="slider-arrow" id="nextBtn" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <div class="slider-viewport" id="sliderViewport">
+            <div class="slider-track" id="sliderTrack">
+                <div class="about-slide">
+                    <p>I am a <strong>Bachelor of International Business Management Minor in Entrepreneurship at Universiti Utara Malaysia</strong> with a strong passion for digital Advertising, Marketing Analytics, and Business Growth.</p>
+                    <p>My academic journey has strengthened my understanding of how businesses create value, adapt to changing market conditions, and leverage innovation to achieve sustainable growth. Throughout my studies, I discovered a strong interest in digital marketing, particularly in how data and technology can influence consumer behavior and support strategic business decisions.</p>
+                </div>
+                <div class="about-slide">
+                    <p>My passion lies in <strong>Digital Advertising, Marketing Analytics, and Business Growth</strong> because these fields combine creativity with analytical thinking to deliver measurable business outcomes. I am fascinated by the ability of digital advertising to reach the right audience with the right message at the right time while continuously optimizing campaigns through data-driven insights.</p>
+                    <p>As I continue developing my career, I aspire to contribute to organizations by creating customer-centric and performance-driven marketing strategies that help brands grow in an increasingly competitive digital landscape. My goal is to combine strategic thinking and data-driven decision-making to deliver measurable results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="tools-section">
+        <h2 class="section-title">Tools & Expert Platforms</h2>
+        <p class="section-subtitle">A breakdown of my software proficiency and multi-platform dynamic capabilities</p>
+        
+        <div class="tools-category">
+            <div class="category-title">Advertising Platforms</div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4>Meta Ads Manager</h4>
+                    <p>Monitored and optimized advertising campaigns Facebook & Instagram, Conversion rate optimization, A/B testing, dan retargeting audience.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Google Ads</h4>
+                    <p>Managed Search, Display, Shopping, YouTube, dan Performance Max to expance audience reach.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>TikTok Ads Manager</h4>
+                    <p>Optimize ad campaign through video creative engaging by filteting and focusing audience behavior to maximize ROAS.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Shopee & Tokopedia Ads</h4>
+                    <p>Drive marketplace GMV and organic visibility by optimizing sponsored product placements, strategic keyword bidding, and listing conversion funnels.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools-category">
+            <div class="category-title">Analytics & Tracking</div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4>Google Analytics 4 (GA4)</h4>
+                    <p>Analyze website traffic, user behavior, user journeys, and conversion funnels accurately.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Google Tag Manager (GTM)</h4>
+                    <p>Implement tracking codes, custom event tracking, and pixel analytics without modifying the website's core code.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Meta Pixel & Conversion API</h4>
+                    <p>Track user actions on the website originating from Meta ads to customize retargeting audiences.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Google Search Console</h4>
+                    <p>Monitor website organic search performance, indexing status, keyword rankings, and technical SEO health.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools-category">
+            <div class="category-title">Artificial Intelligence</div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4>ChatGPT</h4>
+                    <p>Generate marketing ad copy, brainstorm creative campaign ideas, and write data analysis scripts.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Gemini</h4>
+                    <p>Conduct multi-modal research, process large data files, and refine cross-channel marketing strategies.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Claude</h4>
+                    <p>Analyze long-form project briefs, craft long-form copy, and write clean website code.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Perplexity</h4>
+                    <p>Perform real-time market research, track competitor strategies, and source live web data.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools-category">
+            <div class="category-title">SEO & Keyword Research</div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4>Ahrefs & SEMrush</h4>
+                    <p>Research competitor, analyze backlink, monitor performance SEO, research keyword global organic.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Google Keyword Planner</h4>
+                    <p>Optimize marketplace sponsored ads and high-intent keyword targets to accelerate performance growth and conversion rates.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools-category">
+            <div class="category-title">Data Optimization & Visualization</div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4>Looker Studio</h4>
+                    <p>Build automated, interactive dashboards that integrate cross-channel marketing data sources into centralized performance views.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Microsoft Excel</h4>
+                    <p>Perform deep-dive, large-scale data analysis using Pivot Tables, advanced macro formulas, and predictive forecasting models.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Google Sheets</h4>
+                    <p>Facilitate real-time collaboration for media planning reports, granular budget tracking, and live client data synchronization.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools-category">
+            <div class="category-title">CRM, Automation & Management</div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4>HubSpot & Mailchimp</h4>
+                    <p>Automation marketing email, audience segmentation, lead nurturing pipeline, dan CRM leads management.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Notion</h4>
+                    <p>Centralization workspace, measurable strategy ad copy content and strategic planning.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Asana</h4>
+                    <p>Manage operational task lists, map out project timelines, and coordinate critical deadlines across cross-functional teams.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools-category">
+            <div class="category-title">Creative, Design & Presentation</div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4>Canva & CapCut</h4>
+                    <p>Produce high-converting visual ad assets, creative promotional materials, and interactive short-form video edits for TikTok and Instagram Reels.</p>
+                </div>
+                <div class="tool-card">
+                    <h4>Google Slides</h4>
+                    <p>Develop professional digital marketing strategy pitch decks and comprehensive monthly client performance reports.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="brands-section">
+        <h2 class="section-title">Brands Experience</h2>
+        <p class="section-subtitle">Use arrows or swipe to navigate. Click on any brand to view campaign details.</p>
+        <div class="brands-slider-container">
+            <button class="brands-arrow left" id="brandPrev" onclick="moveBrandSlide(-1)">&#10094;</button>
+            <div class="brands-viewport" id="brandsViewport">
+                <div class="brands-track" id="brandsTrack">
+                    <div class="brand-card" onclick="openModal('Noni Abon', 'Planned and executed paid social media advertising campaigns for Noni Abon across TikTok and Instagram to increase brand awareness, generate qualified leads, and drive marketplace purchases through performance-driven campaign optimization.')">Noni Abon</div>
+                    <div class="brand-card" onclick="openModal('Ajwa Delight', 'Analyzed keyword performance across Tokopedia and Shopee advertising campaigns to identify high-converting products, optimize marketplace advertising efficiency, and maximize purchase volume through data-driven campaign management.')">Ajwa Delight</div>
+                    <div class="brand-card" onclick="openModal('Patty Pals', 'Built a structured November to December 2025 content calendar aligned with seasonal promotions, leveraged product performance analysis to identify OG Burger as the top-selling menu item to drive sales')">Patty Pals</div>
+                    <div class="brand-card" onclick="openModal('Sozo Skin Clinic', 'Analyze campaign performance to identify conversion bottlenecks, optimize brand search campaigns, and improve advertising effectiveness without increasing CPC.')">Sozo Skin Clinic</div>
+                    <div class="brand-card" onclick="openModal('DCBPays', 'Identified budget allocation and campaign delivery constraints, providing data-driven recommendations to improve impression share, campaign continuity, and overall advertising performance at scale.')">DCBPays</div>
+                    <div class="brand-card" onclick="openModal('Carlo Car', 'Analyzed Meta Ads campaign performance to evaluate budget allocation, audience reach, cost efficiency, and engagement metrics across multiple automotive campaigns.')">Carlo Car</div>
+                    <div class="brand-card" onclick="openModal('Aldora Sports', 'Increased audience engagement and brand visibility through a Reels-focused content strategy leveraging educational fitness content, product showcases, trending audio, and community-driven challenges.')">Aldora Sports</div>
+                    <div class="brand-card" onclick="openModal('Kencana Murti 2', 'Increased brand awareness, profile visits, website traffic, and follower growth through a short-term Instagram Boost campaign by optimizing reach and engagement.')">Kencana Murti 2</div>
+                </div>
+            </div>
+            <button class="brands-arrow right" id="brandNext" onclick="moveBrandSlide(1)">&#10095;</button>
+        </div>
+        <div class="brands-progress-container">
+            <div class="brands-progress-bar" id="brandProgressBar"></div>
+        </div>
+    </section>
+
+    <section id="order-details" class="campaign-projects-section">
+        <div class="section-header">
+            <h2 class="section-title">Campaign Type Projects</h2>
+            <p class="section-subtitle">Comprehensive digital marketing frameworks built to scale GMV, maximize ROAS, and optimize customer journeys.</p>
+        </div>
+        
+        <div class="carousel-container">
+            <div class="campaign-slider-wrapper" id="campaignWrapper">
+                <div class="campaign-slider" id="campaignSlider">
+                    
+                    <div class="campaign-card card-angle-left">
+                        <div class="card-badge">Marketplace</div>
+                        <h3 class="card-title">Sponsored Product & Keyword Optimization</h3>
+                        <p class="card-desc">Advanced strategic bidding setups tailored for e-commerce platforms like Shopee and Tokopedia. Focuses on maximizing high-intent keyword traffic to boost store visibility, capture market share, and directly scale overall store GMV.</p>
+                        <div class="card-metrics">
+                            <span class="metric-tag">🚀 GMV Scale</span>
+                            <span class="metric-tag">🎯 High ROAS</span>
+                        </div>
+                    </div>
+    
+                    <div class="campaign-card card-angle-straight">
+                        <div class="card-badge">Paid Social</div>
+                        <h3 class="card-title">Meta Ads Retargeting & Custom Audiences</h3>
+                        <p class="card-desc">End-to-end configuration of Meta Pixel, custom events, and lookalike audience tracking systems. Designed to monitor off-site customer behavior from paid ads to deploy sharp, personalized hyper-targeted retargeting funnels.</p>
+                        <div class="card-metrics">
+                            <span class="metric-tag">📊 Pixel Analytics</span>
+                            <span class="metric-tag">🔁 Retargeting</span>
+                        </div>
+                    </div>
+    
+                    <div class="campaign-card card-angle-right">
+                        <div class="card-badge">Analytics</div>
+                        <h3 class="card-title">Advanced GA4 & Conversion Funnel Auditing</h3>
+                        <p class="card-desc">Accurate tracking infrastructure implementation built to trace the entire web user journey. Analyzes cross-channel marketing traffic sources and isolates leakages in conversion funnels without altering core backend system code.</p>
+                        <div class="card-metrics">
+                            <span class="metric-tag">📈 UX Mapping</span>
+                            <span class="metric-tag">⚙️ Custom Events</span>
+                        </div>
+                    </div>
+    
+                    <div class="campaign-card card-angle-left">
+                        <div class="card-badge">Organic Growth</div>
+                        <h3 class="card-title">Organic Search Performance & Technical SEO Health</h3>
+                        <p class="card-desc">Deep-dive technical monitoring of website indexing health, keyword rankings, and organic web traffic growth trends. Focuses on structural health configurations to achieve search engine ranking consistency.</p>
+                        <div class="card-metrics">
+                            <span class="metric-tag">🔍 Indexing</span>
+                            <span class="metric-tag">🔝 Rank Engine</span>
+                        </div>
+                    </div>
+    
+                    <div class="campaign-card card-angle-right">
+                        <div class="card-badge">Data Automation</div>
+                        <h3 class="card-title">Interactive Centralized Marketing Dashboards</h3>
+                        <p class="card-desc">Automated performance tracking spreadsheets and real-time Looker Studio boards using macro formulas, multi-channel data integration, and forecasting models for transparent media planning and budget visibility.</p>
+                        <div class="card-metrics">
+                            <span class="metric-tag">📊 Live Synced</span>
+                            <span class="metric-tag">💡 Forecasting</span>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="project-vertical-viewport" id="projectVerticalViewport">
+            <h3 class="section-title" style="margin-bottom: 30px; margin-top: 0;">Project Available</h3>
+            <div class="contact-grid">
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>Ads Management</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>Search Engine Marketing</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>Creative Campaign</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>Data Analytics</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>WordPress Developer</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>Social Media Marketing</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>Copywriting</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>Content Planner</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>OmniChannel</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>Resume Optimization</h4>
+                    <p>Click to inquire</p>
+                </a>
+                <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                    <h4>LinkedIn Optimization</h4>
+                    <p>Click to inquire</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="contact-section">
+        <h2 class="section-title">Summary Portfolio and Resume</h2>
+        <p class="section-subtitle">View portfolio resources and download formal updates below</p>
+        <div class="contact-grid">
+            <a href="https://drive.google.com/file/d/1LxNAZjNygKWqKSyvkg24a42xHU0VDma9/view?usp=sharing" target="_blank" class="contact-card">
+                <h4>Canva Portfolio</h4>
+                <p>Click Button</p>
+            </a>
+            <a href="https://drive.google.com/file/d/1ShpLOoP1WZEijS03B53Au76ZvDoWhjP-/view?usp=sharing" target="_blank" class="contact-card">
+                <h4>Resume</h4>
+                <p>Click Button</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Reach out through any professional network channel below</p>
+        <div class="contact-grid">
+            <a href="https://www.linkedin.com/in/rafifadhilaputra/" target="_blank" class="contact-card">
+                <h4>LinkedIn</h4>
+                <p>Click Button</p>
+            </a>
+            <a href="mailto:rafifadhilaputra@gmail.com" class="contact-card">
+                <h4>Email</h4>
+                <p>Click Button</p>
+            </a>
+            <a href="https://wa.me/6281388180032" target="_blank" class="contact-card">
+                <h4>WhatsApp</h4>
+                <p>Click Button</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Rafi Fadhila Putra - Digital Marketing Professional. All rights reserved.</p>
+    </footer>
+
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModalOutside(event)">
+        <div class="modal-container">
+            <button class="modal-close-btn" onclick="closeModal()">&times;</button>
+            <h3 class="modal-title" id="modalTitle">Brand Name</h3>
+            <div class="modal-body" id="modalBody">
+                Explanation text goes here.
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

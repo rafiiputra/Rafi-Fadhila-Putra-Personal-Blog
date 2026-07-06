@@ -1,0 +1,5 @@
+{
+  "buildCommand": "echo \"No build required\"",
+  "outputDirectory": ".",
+  "devCommand": "echo \"Serving static files\""
+}

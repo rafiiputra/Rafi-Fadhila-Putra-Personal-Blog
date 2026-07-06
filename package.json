@@ -1,0 +1,18 @@
+{
+  "name": "rafi-fadhila-putra-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Digital Marketing Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "echo \"No build needed\"",
+    "build": "echo \"Static files only\""
+  },
+  "keywords": [
+    "portfolio",
+    "digital-marketing",
+    "advertising",
+    "marketing-analytics"
+  ],
+  "author": "Rafi Fadhila Putra",
+  "license": "MIT"
+}
