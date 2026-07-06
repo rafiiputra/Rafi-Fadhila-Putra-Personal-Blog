@@ -14,13 +14,16 @@ body {
     color: #e2e8f0;
     line-height: 1.6;
     overflow-x: hidden;
-    background: #09090b;
+    background: linear-gradient(rgba(9, 9, 11, 0.85), rgba(9, 9, 11, 0.85)), 
+                url('https://images.unsplash.com/photo-1578432287150-d4c0b4df42f6?w=1200&h=1200&fit=crop') center/cover fixed no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 /* ==========================================================================
    2. HEADER NAVIGATION ARCHITECTURE
    ========================================================================== */
 header {
-    background: rgba(9, 9, 11, 0.9);
+    background: rgba(9, 9, 11, 0.95);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255, 85, 0, 0.15);
@@ -83,7 +86,7 @@ header {
     text-align: center;
     padding: 180px 20px 120px;
     border-bottom: 1px solid rgba(255, 68, 0, 0.15);
-    background: radial-gradient(circle at 50% 50%, rgba(255, 77, 0, 0.08), transparent 60%);
+    background: rgba(9, 9, 11, 0.6);
 }
 .hero h1 {
     font-size: 56px;
@@ -141,12 +144,13 @@ header {
 }
 .slider-viewport {
     position: relative;
-    background: #18181b;
+    background: rgba(24, 24, 27, 0.95);
     border: 1px solid rgba(255, 85, 0, 0.2);
     border-left: 4px solid #ff5500;
     border-radius: 8px;
     overflow: hidden;
     width: 100%;
+    backdrop-filter: blur(10px);
 }
 .slider-track {
     display: flex;
@@ -178,7 +182,7 @@ header {
     padding: 0 10px 15px 10px;
 }
 .slider-arrow {
-    background: #18181b;
+    background: rgba(24, 24, 27, 0.95);
     color: #ff5500;
     border: 1px solid rgba(255, 85, 0, 0.3);
     width: 40px;
@@ -190,6 +194,7 @@ header {
     align-items: center;
     font-size: 18px;
     transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
 .slider-arrow:hover {
     background: #ff5500;
@@ -235,11 +240,12 @@ header {
     gap: 20px;
 }
 .tool-card {
-    background: #18181b;
+    background: rgba(24, 24, 27, 0.95);
     border: 1px solid rgba(255, 255, 255, 0.05);
     padding: 25px;
     border-radius: 8px;
     transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
 .tool-card:hover {
     transform: translateY(-4px);
@@ -281,7 +287,7 @@ header {
 .brand-card {
     flex: 0 0 calc(25% - 15px);
     min-width: 250px;
-    background: #18181b;
+    background: rgba(24, 24, 27, 0.95);
     border: 1px solid rgba(255, 85, 0, 0.15);
     border-top: 3px solid #ff5500;
     padding: 30px;
@@ -291,6 +297,7 @@ header {
     color: #ffffff;
     cursor: pointer;
     transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
 .brand-card:hover {
     transform: translateY(-5px);
@@ -298,7 +305,7 @@ header {
     box-shadow: 0 8px 25px rgba(255, 85, 0, 0.15);
 }
 .brands-arrow {
-    background: #18181b;
+    background: rgba(24, 24, 27, 0.95);
     color: #ff5500;
     border: 1px solid rgba(255, 85, 0, 0.3);
     width: 45px;
@@ -310,6 +317,7 @@ header {
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
 .brands-arrow:hover:not(:disabled) {
     background: #ff5500;
@@ -348,13 +356,14 @@ header {
     margin-top: 40px;
 }
 .contact-card {
-    background: #18181b;
+    background: rgba(24, 24, 27, 0.95);
     border: 1px solid rgba(255, 255, 255, 0.05);
     padding: 25px;
     border-radius: 8px;
     text-decoration: none;
     color: inherit;
     transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
 .contact-card:hover {
     border-color: #ff5500;
@@ -380,15 +389,17 @@ header {
     opacity: 0; pointer-events: none;
     transition: opacity 0.3s ease;
     z-index: 2000;
+    backdrop-filter: blur(5px);
 }
 .modal-overlay.active {
     opacity: 1; pointer-events: auto;
 }
 .modal-container {
-    background: #18181b;
+    background: rgba(24, 24, 27, 0.98);
     border: 1px solid #ff5500;
     padding: 30px; max-width: 500px; width: 90%;
     border-radius: 8px; position: relative;
+    backdrop-filter: blur(10px);
 }
 .modal-close-btn {
     position: absolute; top: 15px; right: 20px;
@@ -424,14 +435,15 @@ header {
 }
 .campaign-card {
     width: 340px;
-    background-color: #18181b; 
-    border: 1px solid #27272a;
+    background-color: rgba(24, 24, 27, 0.95); 
+    border: 1px solid rgba(39, 39, 42, 0.5);
     border-radius: 16px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     user-select: none;
     transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.3s, box-shadow 0.3s;
+    backdrop-filter: blur(10px);
 }
 /* 📐 3D Angled Matrix Perspective */
 .card-angle-left { transform: rotateY(10deg) scale(0.96); }
@@ -476,7 +488,7 @@ header {
     flex-wrap: wrap;
 }
 .metric-tag {
-    background-color: #27272a;
+    background-color: rgba(39, 39, 42, 0.8);
     color: #e4e4e7;
     padding: 6px 12px;
     border-radius: 6px;
@@ -490,13 +502,14 @@ header {
     padding: 30px 20px;
     border: 1px solid rgba(255, 85, 0, 0.15);
     border-radius: 8px;
-    background: #18181b;
+    background: rgba(24, 24, 27, 0.95);
     scroll-behavior: smooth;
     margin-top: 50px;
+    backdrop-filter: blur(10px);
 }
 
 footer {
-    background-color: #09090b;
+    background-color: rgba(9, 9, 11, 0.95);
     border-top: 1px solid rgba(255, 85, 0, 0.1);
     color: #71717a;
     text-align: center;
