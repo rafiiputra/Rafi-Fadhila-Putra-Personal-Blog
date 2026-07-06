@@ -14,10 +14,12 @@ body {
     color: #e2e8f0;
     line-height: 1.6;
     overflow-x: hidden;
-    background: linear-gradient(rgba(9, 9, 11, 0.85), rgba(9, 9, 11, 0.85)), 
-                url('https://images.unsplash.com/photo-1578432287150-d4c0b4df42f6?w=1200&h=1200&fit=crop') center/cover fixed no-repeat;
+    background: linear-gradient(rgba(9, 9, 11, 0.75), rgba(9, 9, 11, 0.75)), 
+                url('https://images.unsplash.com/photo-1578432287150-d4c0b4df42f6?w=1920&h=1080&fit=crop') center/cover fixed no-repeat,
+                url('https://images.unsplash.com/photo-1533807671657-3d7f26e37298?w=1920&h=1080&fit=crop') center/cover fixed no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
+    background-color: #09090b;
 }
 /* ==========================================================================
    2. HEADER NAVIGATION ARCHITECTURE
